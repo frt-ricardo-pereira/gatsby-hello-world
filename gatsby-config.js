@@ -11,8 +11,8 @@ module.exports = {
              {
               resolve: `gatsby-plugin-manifest`,
               options: {
-                name: `GatsbyJS`,
-                short_name: `GatsbyJS`,
+                name: `Fuse`,
+                short_name: `Fuse`,
                 start_url: `/`,
                 background_color: `#f7f0eb`,
                 theme_color: `#902026`,
@@ -21,6 +21,7 @@ module.exports = {
              }
             },
             'gatsby-plugin-offline',
-            'gatsby-plugin-netlify-cms'
+            'gatsby-plugin-netlify-cms',
+            'gatsby-plugin-react-helmet'
           ]
 }

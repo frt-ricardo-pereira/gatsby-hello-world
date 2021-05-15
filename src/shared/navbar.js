@@ -5,7 +5,7 @@ import FuseImage from "../images/fuselogo.png"
 export default function Navbar() {
   return (
     <div class="">
-      <nav class="bg-white ">
+      <nav class="bg-white shadow">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between h-16">
             <div class="-ml-2 mr-2 flex items-center md:hidden">
@@ -49,13 +49,13 @@ export default function Navbar() {
               </button>
             </div>
 
-            <div class="flex-shrink-0 flex items-center">
+            <Link className="flex-shrink-0 flex items-center cursor-pointer"  to="/" >
               <img
                 class="hidden lg:block h-8 w-auto"
                 src={FuseImage}
                 alt="Workflow"
               ></img>
-            </div>
+            </Link>
 
             <div class="hidden md:ml-6 md:flex md:space-x-8">
               <Link
