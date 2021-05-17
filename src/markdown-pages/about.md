@@ -1,4 +1,5 @@
 ---
-slug: "/about"
-title: "My first blog post  222"
+slug: /about
+title: My first blog po22
+cona: /img/aaaaa.jpg
 ---
