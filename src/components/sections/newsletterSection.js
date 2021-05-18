@@ -13,8 +13,8 @@ export default function IntroduceSection ({
             <p class="inline text-3xl font-extrabold tracking-tight sm:block sm:text-4xl">
               {newsletterTitle1} <span class="text-sunset-600"> {newsletterTitle2}</span>
             </p>
-            <form class="mt-8 sm:flex">
-              <label for="emailAddress" class="sr-only">
+            <div class="mt-8 sm:flex">
+              <label htmlFor="emailAddress" class="sr-only">
                 Email address
               </label>
               <input
@@ -34,7 +34,7 @@ export default function IntroduceSection ({
                   {newsletterSubscribeName}
                 </button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
 

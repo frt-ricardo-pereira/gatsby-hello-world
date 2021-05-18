@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import FuseImage from "../images/fuselogo.png"
 import Layout from "../shared/mainlayout"
 export default function OurTeam() {
   return (
@@ -32,7 +30,7 @@ export default function OurTeam() {
                     </div>
                     <ul class="flex justify-center space-x-5">
                       <li>
-                        <a href="#" class="text-gray-400 hover:text-gray-500">
+                        <a href="Todo" class="text-gray-400 hover:text-gray-500">
                           <span class="sr-only">Twitter</span>
                           <svg
                             class="w-5 h-5"
@@ -45,7 +43,7 @@ export default function OurTeam() {
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="text-gray-400 hover:text-gray-500">
+                        <a href="ToDo" class="text-gray-400 hover:text-gray-500">
                           <span class="sr-only">LinkedIn</span>
                           <svg
                             class="w-5 h-5"

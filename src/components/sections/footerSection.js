@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function FotterSection({}) {
+export default function FotterSection() {
   return (
     <footer class="bg-white shadow-md ">
       <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
@@ -9,43 +9,43 @@ export default function FotterSection({}) {
           aria-label="Footer"
         >
           <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+            <a href="ToDo" class="text-base text-gray-500 hover:text-gray-900">
               About
             </a>
           </div>
 
           <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+            <a href="ToDo" class="text-base text-gray-500 hover:text-gray-900">
               Blog
             </a>
           </div>
 
           <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+            <a href="ToDo" class="text-base text-gray-500 hover:text-gray-900">
               Our team
             </a>
           </div>
 
           <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+            <a href="ToDo" class="text-base text-gray-500 hover:text-gray-900">
               Press
             </a>
           </div>
 
           <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+            <a href="ToDo" class="text-base text-gray-500 hover:text-gray-900">
               Accessibility
             </a>
           </div>
 
           <div class="px-5 py-2">
-            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+            <a href="ToDo" class="text-base text-gray-500 hover:text-gray-900">
               Partners
             </a>
           </div>
         </nav>
         <div class="mt-8 flex justify-center space-x-6">
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a href="ToDo" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Facebook</span>
             <svg
               class="h-6 w-6"
@@ -61,7 +61,7 @@ export default function FotterSection({}) {
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a href="ToDo" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Instagram</span>
             <svg
               class="h-6 w-6"
@@ -77,7 +77,7 @@ export default function FotterSection({}) {
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a href="ToDo" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Twitter</span>
             <svg
               class="h-6 w-6"
@@ -89,7 +89,7 @@ export default function FotterSection({}) {
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a href="ToDo" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">GitHub</span>
             <svg
               class="h-6 w-6"
@@ -105,7 +105,7 @@ export default function FotterSection({}) {
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a href="ToDo" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">Dribbble</span>
             <svg
               class="h-6 w-6"

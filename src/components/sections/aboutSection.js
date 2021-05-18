@@ -36,6 +36,7 @@ export default function AboutSection({
               <a
                 href={applyButtonTo}
                 target="_blank"
+                rel="noreferrer"
                 class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-l-full rounded-r-full text-white bg-sunset-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 {applyButtonName}
