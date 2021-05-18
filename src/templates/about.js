@@ -18,8 +18,8 @@ export default function About({
   )
 }
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { slug : { eq: $path }}) {
+  query($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {       
         slug

@@ -33,4 +33,22 @@ collections:
           - {label: 'About', name: 'slug', widget: 'hidden', default: '/about'}
           - {label: 'Title', name: 'title', widget: 'string'}
           - {label: 'Cona', name: 'cona', widget: 'image'}
+      - file: "src/markdown-pages/index.md"
+        name: 'Index'
+        label: 'Intro'
+        editor:
+        preview: true
+        fields:
+          - {label: 'Index', name: 'slug', widget: 'hidden', default: '/'}
+          - {label: 'Intro Title 1', name: 'introTitle1', widget: 'string'}
+          - {label: 'Intro Title 2', name: 'introTitle2', widget: 'string'}
+          - {label: 'Intro Description', name: 'introDescription', widget: 'string'}
+          - {label: 'Intro Image', name: 'introImage', widget: 'image'}
+          - {label: 'Colab Title', name: 'colabTitle', widget: 'string'}
+          - {label: 'About Title 1', name: 'aboutTitle1', widget: 'string'}
+          - {label: 'About Title 2', name: 'aboutTitle2', widget: 'string'}
+          - {label: 'About Description', name: 'aboutDescription', widget: 'string'}
+          - {label: 'About Send Email Name', name: 'aboutSendEmailName', widget: 'string'}
+          
+       
         
