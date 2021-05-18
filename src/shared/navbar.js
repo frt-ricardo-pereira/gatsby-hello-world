@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import FuseImage from "../images/fuselogo.png"
+import FuseImage from "../../static/img/fuselogo.png"
 
 export default function Navbar() {
   return (
