@@ -3,12 +3,14 @@ import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 import Layout from "../shared/mainlayout"
 import IndexTemplate from "../templates/indexTemplate"
+import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
+      <SEO title={post.frontmatter.introTitle1 + " " + post.frontmatter.introTitle2}></SEO>
       <IndexTemplate
         introTitle1={post.frontmatter.introTitle1}
         introTitle2={post.frontmatter.introTitle2}
@@ -48,7 +50,7 @@ IndexPage.propTypes = {
 export default IndexPage
 
 export const IndexPageQuery = graphql`
-  query AboutPage($id: String!) {
+  query IndexPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

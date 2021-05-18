@@ -5,7 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Fuse`,
+    description: `We aim at integrating refugees and vulnerable migrants using a truly global language coding. Through a free 7-months programming course we give the necessary`,
+    author: `Ana Muller`,
+    keywords: `refugees, coding, integration, javascript, react, git, html, css , course, databases, HackYourFuture, hack your future, final project, program, helping, donate, github`,
+    image: 'static/img/fuselogo.png'
+  },
   plugins: [`gatsby-plugin-postcss`
             ,
              {
@@ -17,7 +23,7 @@ module.exports = {
                 background_color: `#f7f0eb`,
                 theme_color: `#902026`,
                 display: `standalone`,
-                icon: `src/images/fuselogo.png`
+                icon: `static/img/fuselogo.png`
              }
             },
             'gatsby-plugin-offline',
