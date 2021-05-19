@@ -46,12 +46,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/sitemap.xml`,
+        
       },
     },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
+        
         policy: [{ userAgent: "*" }],
       },
     },
