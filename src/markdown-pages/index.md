@@ -4,7 +4,8 @@ slug: /
 introTitle1: < Coding
 introTitle2: for integration >
 introDescription: We aim at integrating refugees and vulnerable migrants using a truly global language coding. Through a free 7-months programming course we give the necessary 
-introImage: /img/codingfor.png
+introImage: /img/fuselogo.png
+image: /img/fuselogo.png
 colabTitle: 'In collaboration with:' 
 aboutTitle1: "About"
 aboutTitle2: "the course"
@@ -30,7 +31,7 @@ aboutBallonDescription3: "Students per Class"
 
 theProgramTitle: "The Program"
 theProgramDescription: "description exampleeeee"
-theProgramImage: "/img/theProgram.jpg"
+theProgramImage: /img/fuselogo.png
 newsletterTitle1: "Sign up"
 newsletterTitle2: "for our newsletter."
 newsletterSubscribeName: "Subscribe"

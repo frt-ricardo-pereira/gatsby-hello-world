@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
         introTitle1={post.frontmatter.introTitle1}
         introTitle2={post.frontmatter.introTitle2}
         introDescription={post.frontmatter.introDescription}
-        introImage={post.frontmatter.introImage}
+        introImage=""
         colabTitle={post.frontmatter.colabTitle}
         aboutTitle1={post.frontmatter.aboutTitle1}
         aboutTitle2={post.frontmatter.aboutTitle2}
@@ -57,8 +57,16 @@ export const IndexPageQuery = graphql`
         introTitle1
         introTitle2
         introDescription
-        introImage
-
+      
+        image {
+          
+            childImageSharp {
+              fluid(maxWidth: 240, quality: 64) {
+                ...GatsbyImageSharpFluid
+              }
+            
+          }
+        }
         colabTitle
 
         aboutTitle1

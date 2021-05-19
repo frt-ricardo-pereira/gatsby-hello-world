@@ -1,5 +1,5 @@
 import React from "react"
-
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 export default function IntroduceSection ({
   introTitle1,
   introTitle2,
@@ -25,6 +25,7 @@ export default function IntroduceSection ({
 
           <div class="flex justify-center mt-2">
             <img class=" object-cover   " src={introImage} alt=""></img>
+            
           </div>
         </div>
       </div>
