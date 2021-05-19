@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
         aboutBallonDescription3={post.frontmatter.aboutBallonDescription3}
         theProgramTitle={post.frontmatter.theProgramTitle}
         theProgramDescription={post.frontmatter.theProgramDescription}
-        theProgramImage={post.frontmatter.theProgramImage}
+        theProgramImage=""
         newsletterTitle1={post.frontmatter.newsletterTitle1}
         newsletterTitle2={post.frontmatter.newsletterTitle2}
         newsletterSubscribeName={post.frontmatter.newsletterSubscribeName}
@@ -85,7 +85,7 @@ export const IndexPageQuery = graphql`
 
         theProgramTitle
         theProgramDescription
-        theProgramImage
+        
 
         newsletterTitle1
         newsletterTitle2
