@@ -29,7 +29,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         path: node.frontmatter.slug,
         component: require.resolve(`./src/templates/${String(node.frontmatter.templatekey)}.js`),
         context: {
-          id: node.id
+          id: node.id,
+          isCanonical:true
         },
       })
     })

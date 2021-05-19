@@ -1,5 +1,5 @@
 import React from "react"
-import { IndexTemplate } from "../../templates/indexTemplate"
+import  IndexTemplate  from "../../templates/indexTemplate"
 
 const IndexPreview = ({ entry, getAsset }) => {
   const data = entry.getIn(["data"]).toJS()
