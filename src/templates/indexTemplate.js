@@ -34,6 +34,7 @@ import React from "react"
 }) => {
   return (
     <div class="">
+
       <IntroduceSection
         introTitle1={introTitle1}
         introTitle2={introTitle2}
@@ -66,6 +67,7 @@ import React from "react"
         newsletterTitle2={newsletterTitle2}
         newsletterSubscribeName={newsletterSubscribeName}
       ></NewsLetterSection>
+  
       <FooterSection></FooterSection>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from "react"
-
+import { GatsbyImage } from "gatsby-plugin-image"
 export default function TheProgramSection({
   theProgramTitle,
   theProgramDescription,
@@ -15,7 +15,8 @@ export default function TheProgramSection({
       </p>
 
       <div class="flex justify-center mt-10 px-10">
-        <img class=" object-cover w-auto " src={theProgramImage} alt=""></img>
+       
+        <GatsbyImage image={theProgramImage}  />
       </div>
     </section>
   )

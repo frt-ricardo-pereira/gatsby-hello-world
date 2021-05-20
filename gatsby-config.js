@@ -28,13 +28,14 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-plugin-netlify-cms",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        name: "uploads",
+        path: `${__dirname}/static/img`,
       },
     },
-    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,18 +43,44 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-    "gatsby-transformer-remark",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "images",
+        path: `${__dirname}/src/img`,
+      },
+    },
+
+    `gatsby-plugin-image`,
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [          
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static',
+            },
+          },
+        ],
+      },
+    },
+
     {
       resolve: `gatsby-plugin-sitemap`,
-      options: {
-        
-      },
+      options: {},
     },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        
         policy: [{ userAgent: "*" }],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
   ],
