@@ -1,5 +1,4 @@
 import React from "react"
-import LazyImage from "../lazyimage"
 import tw from "twin.macro"
 const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24 `
 const LeftColumn = tw.div`relative lg:w-5/12 text-center max-w-lg mx-auto lg:max-w-none lg:text-left text-4xl tracking-tight  sm:leading-none  lg:text-4xl`
