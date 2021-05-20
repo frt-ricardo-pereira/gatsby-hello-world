@@ -4,7 +4,6 @@ import AboutSection from "../components/sections/aboutSection"
 import TheProgramSection from "../components/sections/theprogramsection"
 import NewsLetterSection from "../components/sections/newsletterSection"
 import FooterSection from "../components/sections/footerSection"
-import Animation from "../components/animationRevealPage"
 import React from "react"
 
  const IndexTemplate = ({
@@ -35,7 +34,7 @@ import React from "react"
 }) => {
   return (
     <div class="">
-      <Animation> 
+
       <IntroduceSection
         introTitle1={introTitle1}
         introTitle2={introTitle2}
@@ -68,7 +67,7 @@ import React from "react"
         newsletterTitle2={newsletterTitle2}
         newsletterSubscribeName={newsletterSubscribeName}
       ></NewsLetterSection>
-      </Animation>
+  
       <FooterSection></FooterSection>
     </div>
   )
